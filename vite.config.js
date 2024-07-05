@@ -9,7 +9,7 @@ import getPageContext from './data';
 export default defineConfig(
     {
         appType: "mpa",
-        base: "portfolio",
+        base: "/repositorio_ale/",
         build: {
             rollupOptions: {
                 input: Object.fromEntries(
