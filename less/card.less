@@ -1,0 +1,54 @@
+.container {
+    
+}
+
+.precios {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.card {
+    display:flex;
+    max-width:280px;
+    min-width: 280px;
+    min-height: 380px;
+    background-color: #3d3838;
+    color: @secondary-text-color;
+    box-shadow: 3px 3px 5px darken(@primary-color, 20%);
+    margin: 0.5rem;
+    padding:1rem;
+    flex-direction: column;
+    h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    p {
+        flex: 1;
+        font-size: 0.8rem;
+        text-align: justify;
+        line-height: 1.5;
+    }
+    span {
+        align-self: flex-end;
+        justify-self: flex-end;
+    }
+    form {
+        align-self: flex-end;
+        justify-self: flex-end;
+    }
+}

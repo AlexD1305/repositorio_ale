@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="stylesheet" href="/estilo.css" /> -->
+  <link rel="stylesheet" href="less/estilo.less" />
+  <link rel="stylesheet" href="tailwindcss/index.css" />
+  <title>Portafolio Actualizado</title>
+</head>
+
+<body>
+  {{>header}}
+
+  <main>
+    <section class="inicio" id="inicio">
+      <div class="presentacion">
+        <h2>Soy <span class="cambioColor">Alexandra Diaz</span></h2><br>
+        <p>Pasante de la carrera de Ingenieria en Ciencias de la Computacion</p><br>
+      </div>
+      <img src="./Imagenes/foto.jpeg" alt="Foto de perfil" width="320" height="320">
+    </section>
+
+    <section class="acercade" id="acerca">
+      <div class="sobremi">
+        <h2>Sobre mi<span class="cambioColor"></span></h2><br>
+        <p>Pasante Ingenieria en Ciencias de la Computación con experiencia en programación, diseño y bases de datos.
+          Habilidades comprobadas en atención al cliente y desarrollo de proyectos tecnológicos.
+          Comprometida con el aprendizaje continuo y con capacidad para trabajar en equipo, buscando contribuir al campo
+          de las tecnologías de la información.</p>
+      </div>
+    </section>
+
+    <section class="proyectos" id="proyectos">
+      {{>galeria}}
+    </section>
+
+    <section class="contacto" id="contacto">
+      <div class="contacto-info">
+        <h2>Contacto <span class="cambioColor"></span></h2><br>
+        <p>Puedes contactarme a través de los siguientes medios:</p>
+        <p><i class="fa-solid fa-phone" style="color: #00b5e8;"></i> +504 97357341</p>
+        <p><i class="fa-solid fa-phone" style="color: #00b5e8;"></i> alexandraorellana13152001@gmail.com</p>
+        <p><i class="fa-solid fa-phone" style="color: #00b5e8;"></i> Linkendin:
+          https://www.linkedin.com/in/alexandra-diaz123/</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Copyright © 2024 - Todos los Derechos Reservados</small>
+  </footer>
+
+</body>
+
+</html>
